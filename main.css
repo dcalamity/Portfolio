@@ -5,6 +5,7 @@ body {
     font-size: 25px;
     text-align: center;
     margin: 0%;
+    background-color: rgb(27, 4, 2)
 }
 
 nav {
@@ -13,51 +14,92 @@ nav {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: rgb(190, 190, 190);  
+    background-color: rgb(54, 54, 54);  
+    color: white;
     padding: 1.5% 0%;
 }
 
 
 
+li {
+    list-style: none;
+    display: inline;
+}
+
+
 header {
-    background-color: #ffffffd7;
     padding: 75px 0%;
+    background: url(Pictures/InterGalacticDance.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 26%;
+
+}
+main {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
 section {
-    background-color: lightgray;
-    padding: 6% 0px;
-    margin: 0% 1%;
+    background-color: rgb(78, 78, 78);
+    padding: 12% 0px;
+    margin: 10% 14%;
+    font-family: 'Assistant', sans-serif;
+    border-radius: 5px;
 }
 
-section:nth-child(even) {
-    background: grey;
+section:nth-child(odd) {
+    background-color: rgb(139, 139, 139);
 }
 
-h2 {
-    margin: 20px 0px;"
-    "
+p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 15px;
+    
 }
 
 footer {
+    
     padding: 5% 0%;
-    background-color: grey;
+    background-color: rgb(54, 54, 54);
+}
+
+nav, footer {
+    
+    font-family: 'Merriweather', serif;
 }
 
 @media only screen and (max-width: 480px){
     nav {
         font-size: 25px;
-        padding: 20px 0px;
+        padding: 15px 0px;
     }
     
     header {
         font-size: 15px;
     }    
 
-    section {
-        padding: 20% 0%;
-        margin: 10% 8%;
-        font-size: 15px;
+    h1 {
+        padding-top: 34%;
+        font-size: 40px;
     }
+
+    section {
+        padding: 20% -1%;
+        margin: 10% 8%;
+        font-size: 18px;
+        line-height: 35px;
+
+    }
+    
 }
 
