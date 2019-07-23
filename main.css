@@ -5,7 +5,7 @@ body {
     font-size: 25px;
     text-align: center;
     margin: 0%;
-    background-color: rgb(11, 51, 66)
+    background-color: white;;
 }
 
 nav {
@@ -14,7 +14,7 @@ nav {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: rgb(11, 51, 66);  
+    background-color: rgba(11, 51, 66, .9);  
     color: white;
     padding: 1.5% 0%;
 }
@@ -38,25 +38,26 @@ header {
 }
 
 h1 {
-    color: white;
+    color: white;;
     text-align: center;
-    padding-top: 24%;
-
+    padding-top: 42%;
+    padding-left: 57%;
 }
 main {
-    color: white;
+    color: black;
     font-family: 'Fira Sans', sans-serif;
 }
 section {
-    background-color: rgb(78, 78, 78);
+    background-color:white;
     padding: 12% 0px;
     margin: 10% 14%;
     font-family: 'Assistant', sans-serif;
     border-radius: 5px;
+    border: 5px solid black;
 }
 
 section:nth-child(odd) {
-    background-color: rgb(139, 139, 139);
+    background-color: white;;
 }
 
 p {
@@ -68,7 +69,7 @@ p {
 }
 
 footer {
-    
+    color: white;
     padding: 5% 0%;
     background-color: rgb(11, 51, 66);
 }
@@ -86,13 +87,22 @@ nav, footer {
     
     header {
         font-size: 15px;
+        
     }    
 
     h1 {
-        padding-top: 34%;
+        padding-top: 68%;
+        padding-left: 0%;
         font-size: 40px;
     }
 
+    .links {
+    margin-top: 2%;
+    }
+
+    li {
+        margin-left: 18px;
+    }
     section {
         padding: 20% -1%;
         margin: 10% 8%;
