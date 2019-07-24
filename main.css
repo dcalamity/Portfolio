@@ -18,24 +18,24 @@ nav {
     color: white;
     padding: 1.5% 0%;
     display: inline;
+    font-size: 21px;
 }
 
-.links, span, li {
+.links, span, li  {
     display: inline;
 
 }
 
 .links {
-    margin-left: 19%;
+    margin-left: 30%;
 }
 
 li {
     list-style: none;
     display: inline;
-    margin-left: 10px;
+    margin-left: 18px;
 }
  
-
 header {
     padding: 75px 0%;
     background: url(Pictures/bubbleNebula.jpg);
@@ -44,6 +44,14 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-color:#fff;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center; 
 }
 
 h1 {
@@ -57,17 +65,16 @@ main {
     font-family: 'Fira Sans', sans-serif;
 }
 section {
-    background-color:white;
-    padding: 2% 0px;
-    margin: 10% 14%;
+    background-color: rgb(245, 241, 241);
+    padding: 17% 14%;
+    margin: 0% 0%;
     font-family: 'Assistant', sans-serif;
     border-radius: 5px;
-    border: 5px solid black;
     position: static;
 }
 
-section:nth-child(odd) {
-    background-color: white;;
+section:nth-child(even) {
+    background-color: rgb(238, 237, 237);
 }
 
 p {
@@ -89,16 +96,36 @@ nav, footer {
     font-family: 'Merriweather', serif;
 }
 
-.projects, img {
+a img {
     width: 100%;
-    top: 0px;
     padding: 16px;
+}
+
+div img {
+    height: 150px;
+}
+
+.skills-box { 
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul li {
+    border: 2px solid  rgba(11, 51, 66, .9);
+    padding: 5px;
+    border-radius: 1px;
 }
 
 @media only screen and (max-width: 480px){
     nav {
-        font-size: 25px;
+        font-size: 17px;
         padding: 15px 0px;
+        line-height: 30px;
     }
     
     header {
@@ -107,9 +134,9 @@ nav, footer {
     }    
 
     h1 {
-        padding-top: 68%;
+        padding-top: 89%;
         padding-left: 0%;
-        font-size: 40px;
+        font-size: 28px;
     }
 
     .links {
@@ -121,10 +148,7 @@ nav, footer {
     div, span, .links {
         display: block;
     }
-    li {
-       
-        display: inline;
-    }
+    
     section {
         padding: 20% -1%;
         margin: 10% 8%;
@@ -132,6 +156,16 @@ nav, footer {
         line-height: 35px;
 
     }
+
+    ul {
+        padding-left: 0%;
+    }
+    .projects, ul, li {
+        display: inline-block;
+        text-align: center;
+        
+    }
+
     
 }
 
