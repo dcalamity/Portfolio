@@ -17,15 +17,24 @@ nav {
     background-color: rgba(11, 51, 66, .9);  
     color: white;
     padding: 1.5% 0%;
+    display: inline;
 }
 
+.links, span, li {
+    display: inline;
 
+}
+
+.links {
+    margin-left: 19%;
+}
 
 li {
     list-style: none;
     display: inline;
+    margin-left: 10px;
 }
-
+ 
 
 header {
     padding: 75px 0%;
@@ -40,7 +49,7 @@ header {
 h1 {
     color: white;;
     text-align: center;
-    padding-top: 42%;
+    padding-top: 35%;
     padding-left: 57%;
 }
 main {
@@ -49,11 +58,12 @@ main {
 }
 section {
     background-color:white;
-    padding: 12% 0px;
+    padding: 2% 0px;
     margin: 10% 14%;
     font-family: 'Assistant', sans-serif;
     border-radius: 5px;
     border: 5px solid black;
+    position: static;
 }
 
 section:nth-child(odd) {
@@ -79,6 +89,12 @@ nav, footer {
     font-family: 'Merriweather', serif;
 }
 
+.projects, img {
+    width: 100%;
+    top: 0px;
+    padding: 16px;
+}
+
 @media only screen and (max-width: 480px){
     nav {
         font-size: 25px;
@@ -97,11 +113,17 @@ nav, footer {
     }
 
     .links {
-    margin-top: 2%;
+        /* margin-left: 8%; */
+        margin-left: auto;
+        margin-right: 5%;
     }
 
+    div, span, .links {
+        display: block;
+    }
     li {
-        margin-left: 18px;
+       
+        display: inline;
     }
     section {
         padding: 20% -1%;
