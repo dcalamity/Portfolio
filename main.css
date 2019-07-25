@@ -189,7 +189,9 @@ ul li {
     span {
         float: none;
     }
-    
+    p {
+        padding: 0%;
+    }
 }
 @media only screen 
 and (min-device-width : 768px) 
