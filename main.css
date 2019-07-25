@@ -17,7 +17,7 @@ nav {
     width: 100%;
     background-color: rgba(11, 51, 66, .9);  
     color: white;
-    padding: 1.5% 0%;
+    padding: 1.5%;
     display: inline;
     font-size: 21px;
 }
@@ -27,8 +27,12 @@ nav {
 
 }
 
+nav, span {
+    float: left;
+}
+
 .links {
-    margin-left: 30%;
+    float: right;
 }
 
 li {
@@ -102,6 +106,10 @@ nav, footer {
     font-family: 'Merriweather', serif;
 }
 
+nav {
+    padding-left: 1.5%;
+}
+
 a img {
     width: 100%;
     padding: 16px;
@@ -115,6 +123,12 @@ div img {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+}
+
+.pskills {
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
 }
 
 h2 {
@@ -147,8 +161,8 @@ ul li {
 
     .links {
         /* margin-left: 8%; */
-        margin-left: auto;
-        margin-right: 5%;
+        margin: 0%;
+        float: none;
     }
 
     div, span, .links {
@@ -156,8 +170,8 @@ ul li {
     }
     
     section {
-        padding: 20% -1%;
-        margin: 10% 8%;
+        padding: 9% 14%;
+        margin: 0% 0%;
         font-size: 18px;
         line-height: 35px;
 
@@ -172,6 +186,9 @@ ul li {
         
     }
 
+    span {
+        float: none;
+    }
     
 }
 
