@@ -17,11 +17,20 @@ nav {
     width: 100%;
     background-color: rgba(11, 51, 66, .9);  
     color: white;
-    padding: 1.5%;
     display: inline;
     font-size: 21px;
+    padding: 2% 4%;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color:  white;
+}
 .links, span, li  {
     display: inline;
 
@@ -38,7 +47,6 @@ nav, span {
 li {
     list-style: none;
     display: inline;
-    margin-left: 18px;
 }
  
 header {
@@ -106,9 +114,6 @@ nav, footer {
     font-family: 'Merriweather', serif;
 }
 
-nav {
-    padding-left: 1.5%;
-}
 
 a img {
     width: 100%;
