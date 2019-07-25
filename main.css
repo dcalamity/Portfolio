@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 body {
     font-size: 25px;
@@ -66,7 +67,7 @@ main {
 }
 section {
     background-color: rgb(245, 241, 241);
-    padding: 17% 14%;
+    padding: 9% 14%;
     margin: 0% 0%;
     font-family: 'Assistant', sans-serif;
     border-radius: 5px;
@@ -77,11 +78,16 @@ section:nth-child(even) {
     background-color: rgb(238, 237, 237);
 }
 
+.about-me {
+    padding: 17% 13%;
+}
+
 p {
     text-align: left;
     font-size: 18px;
     line-height: 35px;
-    padding-left: 15px;
+    padding-left: 52px;
+    padding-right: 52px;
     
 }
 
@@ -112,7 +118,7 @@ div img {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 ul li {
