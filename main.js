@@ -32,6 +32,6 @@ $('#navskills').on('click', function (event){
 $('#navcontact').on('click', function (event){
     event.preventDefault()
         $('html, body').animate({
-            scrollTop: $('footer.contact').offset().top,
+            scrollTop: $('section.contact').offset().top,
         }, 'fast')
 })
