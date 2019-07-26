@@ -47,6 +47,7 @@ nav, span {
 li {
     list-style: none;
     display: inline;
+    padding: 0px 3px;
 }
  
 header {

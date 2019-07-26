@@ -4,12 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Assistant|Fira+Sans|Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" 
-   href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
- </head>
+</head>
  <body>
     <nav role="navigation">
-        <span>Eduardo Jesus Gonzalez</span>
+        <span id="home"><a href=#">Eduardo Jesus Gonzalez</a></span>
         <div class="Links">       
             <li><a href="#" id="navabout">About</a></li>
             <li><a href="#" id="navprojects">Projects</a></li> 
@@ -28,7 +26,7 @@
                     When I'm not coding or learning, I spend my time binging Netflix shows, listening to music and spending time with my family.</p>
         </section>
         
-        <section role="projects">
+        <section role="projects" class="projects">
         <h2>Game Of Thrones Quiz App</h2>    
             <a><img src="GOTQuizApp.png" alt="Game Of Thrones Quiz App"></a>
             
@@ -70,7 +68,9 @@
             
         </section>
         
-        <footer role="contact-infomtion">Contact Me </footer>
+        <footer role="contact-infomtion" class="contact">Contact Me </footer>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script> 
  </body>
 </html>
