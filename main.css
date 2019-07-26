@@ -217,10 +217,15 @@ ul li {
     ul {
         padding-left: 0%;
     }
+
     .projects, ul, li {
         display: inline-block;
         text-align: center;
         
+    }
+
+    div img {
+        height: 100px;
     }
 
     span {
@@ -231,6 +236,10 @@ ul li {
     }
     .github_btn, .livelink_btn{
         font-size: 12px;
+    }
+
+    footer {
+        font-size: 16px;
     }
  
 }
