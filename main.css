@@ -51,22 +51,15 @@ li {
 }
  
  body {
-    padding: 75px 0%;
-    background: url(Pictures/bubbleNebula.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    min-height: 100vh;
-    background-color:#fff;
-    background-attachment:fixed;
-    background-repeat:no-repeat;
-    background-size:cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-position: center center; 
+    background: url(Pictures/bubbleNebula.jpg) no-repeat center center fixed; 
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;  
 }
 
 h1 {
