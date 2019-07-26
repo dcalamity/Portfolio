@@ -50,7 +50,7 @@ li {
     padding: 0px 3px;
 }
  
-.backdrop {
+ body {
     padding: 75px 0%;
     background: url(Pictures/bubbleNebula.jpg);
     background-position: center center;
@@ -72,8 +72,9 @@ li {
 h1 {
     color: white;;
     text-align: center;
-    padding-top: 35%;
-    padding-left: 32%;
+    padding-top: 45%;
+    padding-left: 57%;
+    min-height: 100vh;
 }
 
 main {
@@ -85,7 +86,6 @@ section {
     padding: 9% 14%;
     margin: 0% 0%;
     font-family: 'Assistant', sans-serif;
-    border-radius: 5px;
     position: static;
 }
 
