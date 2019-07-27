@@ -9,6 +9,20 @@ body {
     background-color: white;;
 }
 
+body nav h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+body nav div li {
+    padding-top: 1%;
+}
+
+
 nav {
     position: fixed;
     top: 0%;
@@ -27,13 +41,18 @@ a {
     color: white;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline;
     text-decoration-color:  white;
-}
+} */
+
 .links, span, li  {
     display: inline;
+}
 
+body nav div li:hover {
+    text-decoration: underline;
+    text-decoration-color:  white;
 }
 
 nav, span {
@@ -42,12 +61,15 @@ nav, span {
 
 .links {
     float: right;
+    bottom: 0%;
+    text-align: center;
 }
 
 li {
     list-style: none;
     display: inline;
     padding: 0px 3px;
+    
 }
  
 body:before {
@@ -160,13 +182,22 @@ ul li {
     border: none;
     cursor: pointer;
     border: 2px solid rgb(11, 51, 66);
-    padding: 5px;
+    padding: 10px 20px;
     border-radius: 1px;
     color: white;
     background-color: rgb(11, 51, 66);
     margin: 0% 25px;
-    font-size: 24px;
+    font-size: 18px;
+}
 
+.github_btn:hover {
+    color: rgb(11, 51, 66);
+    background-color: white;
+}
+
+.livelink_btn:hover {
+    color: rgb(11, 51, 66);
+    background-color: white;
 }
 
 
