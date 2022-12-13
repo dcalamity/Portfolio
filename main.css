@@ -111,6 +111,15 @@ section {
     position: static;
 }
 
+.left{
+    width: 50%;
+    text-align: center;
+}
+
+.right{
+
+}
+
 section:nth-child(even) {
     background-color: rgb(238, 237, 237);
 }
