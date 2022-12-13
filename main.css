@@ -89,8 +89,7 @@ body:before {
 h1 {
     color: white;;
     text-align: center;
-    padding-top: 40%;
-    padding-left: 57%;
+    padding-top: 30%;
     min-height: 100vh;
 }
 
@@ -111,7 +110,7 @@ section:nth-child(even) {
 }
 
 .about-me {
-    padding: 17% 13%;
+    padding: 17% 20%;
 }
 
 p {
