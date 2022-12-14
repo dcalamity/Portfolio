@@ -105,27 +105,45 @@ main {
 }
 section {
     background-color: rgb(245, 241, 241, 0.8);
-    padding: 9% 14%;
+    padding: 5% 14%;
     margin: 0% 0%;
     font-family: 'Assistant', sans-serif;
     position: static;
 }
 
-.left{
+#left {
+    float: left;
     width: 50%;
     text-align: center;
+    padding: 0 55px;
 }
 
-.right{
+#left > h2 {
+    margin: 0;
+}
 
+#left > p{
+    padding: 0%;
+}
+
+#right {
+    display: inline-block;
+    width: 50%;
+
+}
+
+#right > img {
+    width: auto;
+    height: 310px;
+    border-radius: 2px;
 }
 
 section:nth-child(even) {
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(255, 255, 255);
 }
 
 .about-me {
-    padding: 17% 20%;
+    padding: 7% 9% 10% 9%
 }
 
 p {
@@ -219,6 +237,24 @@ ul li {
     cursor: pointer;
    
 }
+
+@media all and (max-width: 1000px){
+    #right > img {
+        width: auto;
+        height: 255px;
+    }
+
+    #right {
+        width: 100%;
+    }
+
+    #left {
+        float: unset;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
 @media all and (max-width: 640px){
 
     h1 {
